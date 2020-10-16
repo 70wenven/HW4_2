@@ -28,7 +28,6 @@ st.markdown("Uber in Bangkok")
 
 # import data
 DATE_TIME = "timestart"
-st.cache
 def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows)
     lowercase = lambda x: str(x).lower()
